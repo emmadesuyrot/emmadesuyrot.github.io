@@ -2,9 +2,9 @@ body {
  --base-size: 16px;
  --gutter-size: calc(var(--base-size));
 
- --color--primary: black;
- --color--secondary: gold;
- --color--background: tomato;
+ --color--primary: white;
+ --color--secondary: rgb(0, 7, 109);
+ --color--background: rgb(0, 89, 103);
 
  font-size: var(--base-size)
 }
