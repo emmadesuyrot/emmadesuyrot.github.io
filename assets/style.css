@@ -21,20 +21,60 @@ header {
 	padding-block: calc(5 * var(--base-size));
 }
 
+h1, h2 {
+	margin: 0;
+}
+
+h1 {
+	font-size: calc(1.5 * var(--base-size));
+}
+
+h2 {
+	font-size: calc(1.2 * var(--base-size));
+	color: var(--color--secondary);
+}
+
 #main-content {
-	block-size: 75vh;
-	padding-top: var(--base-size);
-	padding-bottom: var(2 * (--base-size));
+	block-size: auto;
+	min-height: 70vh;
+	padding: var(--base-size);
+	background: #fff;
+	color: var(--color--primary);
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: calc(1.5 * var(--base-size));
 }
 
 section {
 	block-size: 75vh;
 }
 
+a {
+	display: block;
+	text-decoration: none;
+	color: var(--color--primary);
+	background: var(--color--secondary);
+	padding: calc(1.2 * var(--base-size)) calc(2 * var(--base-size));
+	border-radius: 8px;
+	font-weight: 600;
+	text-align: center;
+}
+
 footer {
 	background-color: var(--color--secondary);
 	padding-top: var(--base-size);
 	padding-bottom: calc(5 * var(--base-size));
+	text-align: center;
+	padding: calc(2 * var(--base-size)) 0;
+	font-size: calc(0.9 * var(--base-size));
 }
 
 .gutters {
