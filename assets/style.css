@@ -48,11 +48,11 @@ h2 {
 
 h3 {
 	font-family: var(--header--font);
-	font-weight: 900;
 }
 
 em {
 	color: #1f15e2;
+	font-weight: 600;
 }
 
 #main-content {
@@ -114,6 +114,7 @@ footer {
 @media (min-width: 1280px) {
 	header {
 	padding-block: calc(7 * var(--base-size));
+	text-align: center;
 	}
 
 	#main-content {
