@@ -37,7 +37,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: calc(1.5 * var(--base-size));
+	font-size: calc(2.25 * var(--base-size));
 	color: white;
 }
 
@@ -53,6 +53,15 @@ h3 {
 em {
 	color: #1f15e2;
 	font-weight: 600;
+}
+
+.project-number {
+	display: block;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #888;
+	margin-bottom: 0.2rem;
 }
 
 #main-content {
@@ -72,8 +81,11 @@ ul {
 
 li {
 	margin-bottom: calc(2 * var(--base-size));
-	border-bottom: 1px solid #ddd;
-	padding-bottom: calc(1.5 * var(--base-size));
+	padding: calc(1.5 * var(--base-size));
+
+	border-left: 4px solid #1f15e2;
+	padding-left: 1rem;
+	background: #fafafa;
 }
 
 section {
